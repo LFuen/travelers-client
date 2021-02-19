@@ -1,0 +1,80 @@
+
+
+body {
+  font-family: 'Lexend Mega', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 100px;
+  background-image: url('./images/bg/world.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  text-align: center;
+  color: #0d3b4c;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 
+========================================
+  SCROLLBAR
+======================================== 
+*/
+
+:root {
+  --shadow: #0d3b4c;
+  --scrollbarBG: rgb(0, 0, 0);
+  --thumbBG: #052d50;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+  border-radius: 10px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.side-scroll {
+  display: flex;
+  overflow: auto;
+  padding-bottom: 5px;
+}
+.side-scroll > div {
+  flex: 1;
+  margin-right: 20px;
+  flex: 0 0 100px;
+  height: 100px;
+  background: #ccc;
+}
+.side-scroll::-webkit-scrollbar-thumb:horizontal {
+  background-color: var(--thumbBG);
+  box-shadow: -100vh 0 0 100vh var(--shadow), 0 0 15px 5px black;
+}
+
+/* 
+========================================
+            SCROLLBAR
+======================================== 
+*/
+
+
+@media screen and (max-width: 430px) {
+    body{
+    margin-top: 0px
+  }
+}

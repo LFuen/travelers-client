@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://travelers.vercel.app/",
+    "env": {
+      "API_ENDPOINT": "https://frozen-taiga-13619.herokuapp.com/api",
+      "TOKEN_KEY": "canttouchthis"
+    },
+    "chromeWebSecurity": false
+  }
