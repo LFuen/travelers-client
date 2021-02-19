@@ -13,10 +13,11 @@
 
 <p>Travelers is a PERN application, using PostgreSQL, Express, React and Node.js.</p>
 
-<p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</p>
-
 
 ![1](./src/images/screen/1.png)
 ![2](./src/images/screen/2.png)
 ![3](./src/images/screen/3.png)
 ![4](./src/images/screen/4.png)
+
+
+Link to backend GH : [Travelers API](https://github.com/LFuen/travelers-API)
