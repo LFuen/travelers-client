@@ -26,6 +26,7 @@ class Guides extends Component {
     super(props);
     this.state = {
       guides: [],
+      users: []
     };
   }
 
@@ -74,11 +75,16 @@ class Guides extends Component {
     fetch(`${api.API_ENDPOINT}/guides`)
       .then((response) => response.json())
       .then((guides) => this.setState({ guides: guides }));
+
+    // fetch(`${api.API_ENDPOINT}/users`)
+    // .then((response) => response.json())
+    // .then((users) => this.setState({ users: users }));
   }
 
   render() {
-    const { guides } = this.state;
+    const { guides, users } = this.state;
     const guided = guides.sort((a, b) => (a.id < b.id ? 1 : -1)); // sorts the guides by most recent first
+    console.log('these are the users', users)
 
     let imgURL = {
       Food: food,
@@ -88,7 +94,6 @@ class Guides extends Component {
     };
 
     if (guided.length > 0) {
-      console.log("this is guided: ", guided);
       return (
         <GuideDiv>
           <div className="top">

@@ -42,7 +42,7 @@ class SignUp extends Component {
           <form onSubmit={this.handleSubmit}>
             <div role="alert">{error && <p>{error}</p>}</div>
             <h2>Create Account</h2>
-            <label for="username">Username</label>
+            <label htmlFor="username">Username</label>
             <br />
             <input
               ref={this.firstInput}
@@ -53,7 +53,7 @@ class SignUp extends Component {
               required
             />
             <br />
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
             <br />
             <input
               id="password"

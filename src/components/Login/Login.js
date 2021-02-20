@@ -46,13 +46,13 @@ class Login extends Component {
       <LogSection>
         <FadeForm onSubmit={this.handleSubmit}>
           <div role="alert">{error && <p>{error}</p>}</div>
-          <label for="username">
+          <label htmlFor="username">
             <span>Username</span>
           </label>
           <br />
           <input ref={this.firstInput} id="username" name="username" required />
 
-          <label for="password">
+          <label htmlFor="password">
             <br />
             Password
           </label>

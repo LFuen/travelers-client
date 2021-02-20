@@ -116,7 +116,7 @@ class GuideEdit extends Component {
             <SignUpDiv>
               <form onSubmit={this.handleSubmit}>
                 <div role="alert">{error && <p>{error}</p>}</div>
-                <label for="guide_type" value="">
+                <label htmlFor="guide_type" value="">
                   Guide Type
                   <br />
                   <br />
@@ -130,7 +130,7 @@ class GuideEdit extends Component {
                 </GuideSelect>
 
                 <br />
-                <label for="city">
+                <label htmlFor="city">
                   City:
                   <br />
                 </label>
@@ -143,7 +143,7 @@ class GuideEdit extends Component {
                 />
 
                 <br />
-                <label for="recommendation">
+                <label htmlFor="recommendation">
                   What do you recommend?
                   <br />
                 </label>
@@ -156,7 +156,7 @@ class GuideEdit extends Component {
                 />
 
                 <br />
-                <label for="comments">
+                <label htmlFor="comments">
                   Description / Comments: <br />
                 </label>
                 <GuideComm
