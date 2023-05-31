@@ -26,6 +26,7 @@
     "react-test-renderer": "^17.0.1",
     "react-transition-group": "^4.4.1",
     "styled-components": "^5.2.1",
+    "vercel": "^30.0.0",
     "web-vitals": "^0.2.4",
     "webpack": "^5.85.0",
     "yup": "^0.32.8"
