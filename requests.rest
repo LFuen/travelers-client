@@ -1,7 +1,7 @@
-GET https://frozen-taiga-13619.herokuapp.com/api/users
+GET https://blooming-falls-15067.herokuapp.com/api/users
 
 ###
-POST https://frozen-taiga-13619.herokuapp.com/api/users
+POST https://blooming-falls-15067.herokuapp.com/api/users
 Content-Type: application/json
 
 {
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 
 ###
-GET https://frozen-taiga-13619.herokuapp.com/api/guides
+GET https://blooming-falls-15067.herokuapp.com/api/guides
 
 
 
 ###
-POST https://frozen-taiga-13619.herokuapp.com/api/guides
+POST https://blooming-falls-15067.herokuapp.com/api/guides
 Content-Type: application/json
 
 
