@@ -1,4 +1,3 @@
-require("dotenv").config();
 
 const api = {
   API_ENDPOINT: "https://blooming-falls-15067.herokuapp.com/api",
