@@ -59,5 +59,11 @@
     "cypress": "^6.3.0",
     "jsonwebtoken": "^9.0.0",
     "unfetch": "^4.2.0"
+  },
+
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
