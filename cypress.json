@@ -1,7 +1,7 @@
 {
     "baseUrl": "https://travelers.vercel.app/",
     "env": {
-      "API_ENDPOINT": "https://blooming-falls-15067.herokuapp.com/api",
+      "API_ENDPOINT": "travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com",
       "TOKEN_KEY": "canttouchthis"
     },
     "chromeWebSecurity": false

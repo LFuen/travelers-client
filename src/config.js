@@ -1,6 +1,6 @@
 
 const api = {
-  API_ENDPOINT: "https://blooming-falls-15067.herokuapp.com/api",
+  API_ENDPOINT: "travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com",
   API_KEY: process.env.REACT_APP_API_KEY,
   TOKEN_KEY: process.env.TOKEN_KEY,
 };
