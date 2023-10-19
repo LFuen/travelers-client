@@ -1,7 +1,7 @@
-GET travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com
+GET travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com/users
 
 ###
-POST travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com
+POST travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com/users
 Content-Type: application/json
 
 {
@@ -9,14 +9,14 @@ Content-Type: application/json
     "password": "&>K--n?OlR(Bfs9%4N6pPlTLeiqe"
 }
 
+z
+###
+GET travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com/guides
+
+
 
 ###
-GET travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com
-
-
-
-###
-POST https://blooming-falls-15067.herokuapp.com/api/guides
+POST travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com/guides
 Content-Type: application/json
 
 
