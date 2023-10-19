@@ -2,6 +2,7 @@
 
 ## [Travelers](https://Travelers.vercel.app)
 
+## THIS APP IS UNDER MAINTENANCE, THERE IS NO DATABASE HOOKUP UNTIL FURTHER NOTICE
 
 ## Description
 
