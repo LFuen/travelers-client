@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-travelers-dev-207cf-authRole",
+      "UnauthRoleArn": "arn:aws:iam::884368416133:role/amplify-travelers-dev-207cf-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::884368416133:role/amplify-travelers-dev-207cf-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-travelers-dev-207cf-deployment",
+      "UnauthRoleName": "amplify-travelers-dev-207cf-unauthRole",
+      "StackName": "amplify-travelers-dev-207cf",
+      "StackId": "arn:aws:cloudformation:us-east-1:884368416133:stack/amplify-travelers-dev-207cf/aeeecba0-2e63-11ef-b3f7-0afff974393b",
+      "AmplifyAppId": "d3sdkyeq9hvusb"
+    }
+  }
+}
