@@ -23,15 +23,15 @@ const TokenService = {
     else return undefined;
   },
   getUserId() {
-    const parseJwt = (token) => {
-      try {
-        return JSON.parse(atob(token.split(".")[1]));
-      } catch (e) {
-        return null;
-      }
-    };
-    const user = parseJwt(window.localStorage[config.TOKEN_KEY]);
-    return user?.user_id;
+    const authToken = TokenService.getAuthToken();
+    if (!authToken) return null;
+    try {
+      const decoded = TokenService.parseJwt(authToken);
+      return decoded.user_id
+    } catch (e) {
+      console.error("Failed to decode JWT:", e);
+      return null;
+    }
   },
 };
 

@@ -1,7 +1,7 @@
 {
     "baseUrl": "https://travelers.vercel.app/",
     "env": {
-      "API_ENDPOINT": "travelers.cqlz5glh6vqe.us-east-1.rds.amazonaws.com",
+      "API_ENDPOINT": "https://api.travelers.vercel.app",
       "TOKEN_KEY": "canttouchthis"
     },
     "chromeWebSecurity": false
